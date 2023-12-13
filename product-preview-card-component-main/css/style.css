@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    background-color: hsl(30, 38%, 92%);
+    font-weight: 500;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    transform: scale(1.03) perspective(200px);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.main-container:hover {
+    transform: scale(1.1) perspective(4500px);
+}
+
+img {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    width: 310px;
+}
+
+.container {
+    background-color: white;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 310px;
+    height: 465px;
+}
+
+p {
+    color: hsl(228, 12%, 48%);
+}
+
+.parfum-name {
+    color: hsl(212, 21%, 14%);
+    font-family: 'Fraunces', serif;
+    font-size: 38px;
+    font-weight: 700;
+    margin: 10px 0px;
+    line-height: 1;
+    translate: 0px 10px;
+}
+
+.paragraph {
+    margin: 30px 0px;
+    line-height: 1.5;
+}
+
+.prices {
+    translate: 0px -5px;
+}
+
+.disc-price {
+    font-family: 'Fraunces', serif;
+    font-size: 38px;
+    font-weight: 700;
+    color: hsl(158, 36%, 37%);
+}
+
+.org-price {
+    translate: 160px -35px;
+    text-decoration: line-through;
+}
+
+#btn {
+    margin: auto;
+}
+
+.content-container {
+    padding: 30px 35px;
+}
+
+.perfume {
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+
+button {
+    background-color: hsl(158, 36%, 37%);
+    color: white;
+    padding: 15px 65px;
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.button:hover {
+    background-color: hsl(158, 40%, 27%);
+}
+
+.button:active {
+    background-color: hsl(158, 40%, 27%);
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+button svg {
+    margin: 0px 5px;
+    translate: 0px 2px;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    margin-top: auto;
+    text-align: center;
+    padding: 10px;
+    display: none;
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}

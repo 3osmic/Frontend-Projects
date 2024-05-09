@@ -25,7 +25,7 @@ Here is my solution to the "QR Code Component" project on Frontend Mentor.
 
 ### Link
 
-- Solution URL: [GitHub Qr Code Link](https://3osmic.github.io/QR-Code-Component/qr-code-component-main/)
+- Solution URL: [GitHub Qr Code Link](https://3osmic.github.io/Frontend-Projects/qr-code-component-main/)
 
 ## My process
 
